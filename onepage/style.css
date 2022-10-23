@@ -53,6 +53,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-left: 10px;
 }
 
 .head-info-header{
@@ -68,10 +69,10 @@ nav{
 }
 
 .head-info img{
-    margin-left: 10px;
+    margin-left: 50px;
     padding-top: 10px;
     width: auto;
-    height: auto;
+    max-width: 400px;
     margin-right: 100px;
 }
 
@@ -145,6 +146,7 @@ section{
 }
 
 .quote-text{
+    padding: 20px;
     width: auto;
     max-width: 1000px;
     margin: auto;
@@ -159,6 +161,7 @@ section{
 }
 
 .quote-author{
+    padding-right: 10px;
     display: flex;
     width: auto;
     max-width: 1400px;
@@ -180,6 +183,8 @@ section{
 .large-btn{
     margin-top: 80px;
     margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: #3882f6;
     border-radius: 12px;
     padding-left: 60px;
